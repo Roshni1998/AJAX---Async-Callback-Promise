@@ -1,0 +1,112 @@
+C:\Users\LENOVO\JavaScriptWorkspace\Ajax-Async-Callback-Promise>json-server -v
+0.16.3
+
+C:\Users\LENOVO\JavaScriptWorkspace\Ajax-Async-Callback-Promise>curl -X GET -H "Content-Type: application/json" "http://localhost:3000/employees"
+[
+  {
+    "id": 1,
+    "name": "Pankaj",
+    "salary": "10000"
+  },
+  {
+    "id": 2,
+    "name": "Lisa",
+    "salary": "20000"
+  },
+  {
+    "id": 3,
+    "name": "Terrisa",
+    "salary": "30000"
+  },
+  {
+    "id": 4,
+    "name": "Sheetal",
+    "salary": "40000"
+  }
+]
+C:\Users\LENOVO\JavaScriptWorkspace\Ajax-Async-Callback-Promise>curl -X GET -H "Content-Type: application/json" "http://localhost:3000/employees/3"
+{
+  "id": 3,
+  "name": "Terrisa",
+  "salary": "30000"
+}
+
+C:\Users\LENOVO\JavaScriptWorkspace\Ajax-Async-Callback-Promise>node Ajax_Callback.js
+GET State Changed Called at: 22hrs : 42mins : 17secs, Ready State: 1 Status: 0
+GET State Changed Called at: 22hrs : 42mins : 17secs, Ready State: 1 Status: 0
+GET request sent to the server at 22hrs : 42mins : 17secs
+Made GET AJAX Call to server at 22hrs : 42mins : 17secs
+GET State Changed Called at: 22hrs : 42mins : 17secs, Ready State: 2 Status: 0
+GET State Changed Called at: 22hrs : 42mins : 17secs, Ready State: 3 Status: 200
+GET State Changed Called at: 22hrs : 42mins : 17secs, Ready State: 4 Status: 200
+
+C:\Users\LENOVO\JavaScriptWorkspace\Ajax-Async-Callback-Promise>node Ajax_Callback.js
+GET request sent to the server at 22hrs : 50mins : 45secs
+Made GET AJAX Call to server at 22hrs : 50mins : 45secs
+Get User Data at : 22hrs : 50mins : 45secs data : {
+  "id": 1,
+  "name": "Pankaj",
+  "salary": "10000"
+}
+
+C:\Users\LENOVO\JavaScriptWorkspace\Ajax-Async-Callback-Promise>node Ajax_Callback.js
+GET request sent to the server at 23hrs : 45mins : 49secs
+Made GET AJAX Call to server at 23hrs : 45mins : 49secs
+Get User Data at : 23hrs : 45mins : 49secs data : [
+  {
+    "id": 1,
+    "name": "Pankaj",
+    "salary": "10000"
+  },
+  {
+    "id": 2,
+    "name": "Lisa",
+    "salary": "20000"
+  },
+  {
+    "id": 3,
+    "name": "Terrisa",
+    "salary": "30000"
+  },
+  {
+    "id": 4,
+    "name": "Sheetal",
+    "salary": "40000"
+  }
+]
+
+C:\Users\LENOVO\JavaScriptWorkspace\Ajax-Async-Callback-Promise>node Ajax_Callback.js
+GET request sent to the server at 0hrs : 15mins : 35secs
+Made GET AJAX Call to server at 0hrs : 15mins : 35secs
+User Deleted at : 0hrs : 15mins : 35secs, data: {}
+DELETE request sent to the server at 0hrs : 15mins : 35secs
+Made DELETE AJAX Call to server at 0hrs : 15mins : 35secs
+POST request sent to the server at 0hrs : 15mins : 35secs
+Made POST AJAX Call to server at 0hrs : 15mins : 35secs
+User Added at : 0hrs : 15mins : 35secs, data: {
+  "name": "Harry",
+  "salary": "5000",
+  "id": 4
+}
+Get User Data at : 0hrs : 15mins : 35secs data : [
+  {
+    "id": 1,
+    "name": "Pankaj",
+    "salary": "10000"
+  },
+  {
+    "id": 2,
+    "name": "Lisa",
+    "salary": "20000"
+  },
+  {
+    "id": 3,
+    "name": "Terrisa",
+    "salary": "30000"
+  },
+  {
+    "name": "Harry",
+    "salary": "5000",
+    "id": 4
+  }
+]
