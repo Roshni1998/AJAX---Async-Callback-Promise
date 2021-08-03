@@ -110,3 +110,23 @@ Get User Data at : 0hrs : 15mins : 35secs data : [
     "id": 4
   }
 ]
+
+C:\Users\LENOVO\JavaScriptWorkspace\Ajax-Async-Callback-Promise>node Ajax_Promise.js
+GET request sent to the server at 1hrs : 1mins : 23secs
+Made GET AJAX Promise to server at 1hrs : 1mins : 23secs
+DELETE request sent to the server at 1hrs : 1mins : 23secs
+Made GET AJAX Promise to server at 1hrs : 1mins : 23secs
+{"name":"Harry","salary":"5000"}
+POST request sent to the server at 1hrs : 1mins : 23secs
+Made GET AJAX Promise to server at 1hrs : 1mins : 23secs
+User Deleted: {}
+User Added: {
+  "name": "Harry",
+  "salary": "5000",
+  "id": 4
+}
+Get User Data: {
+  "id": 1,
+  "name": "Pankaj",
+  "salary": "10000"
+}
